@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CCD_Car"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/CubeMX/clion/CCD_Car/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CCD_Car.elf">
+				<Option output="E:/CubeMX/clion/CCD_Car/cmake-build-debug/CCD_Car.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CubeMX/clion/CCD_Car/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="E:/CubeMX/clion/CCD_Car/Inc"/>
+					<Add directory="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include"/>
+					<Add directory="d:\clion\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\clion\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\clion\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\clion\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\clion\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 CCD_Car.elf"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CCD_Car.elf/fast">
+				<Option output="E:/CubeMX/clion/CCD_Car/cmake-build-debug/CCD_Car.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CubeMX/clion/CCD_Car/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="E:/CubeMX/clion/CCD_Car/Inc"/>
+					<Add directory="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include"/>
+					<Add directory="d:\clion\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\clion\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\clion\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\clion\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\clion\tools\gcc-arm-none-eabi-10.3-2021.10-win32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 CCD_Car.elf/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/CubeMX/clion/CCD_Car/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/CubeMX/clion/CCD_Car/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;E:/CubeMX/clion/CCD_Car/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/CMSIS/LICENSE.txt">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/STM32F103C8TX_FLASH.ld">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Src/CCD.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Src/Motor.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Src/PID.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Src/adc.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Src/control.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Src/gpio.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Src/main.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Src/printf.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Src/stm32f1xx_hal_msp.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Src/stm32f1xx_it.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Src/syscalls.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Src/sysmem.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Src/system_stm32f1xx.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Src/tim.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Src/usart.c">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/Startup/startup_stm32f103c8tx.s">
+			<Option target="CCD_Car.elf"/>
+		</Unit>
+		<Unit filename="E:/CubeMX/clion/CCD_Car/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
